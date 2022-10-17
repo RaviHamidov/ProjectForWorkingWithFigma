@@ -1,0 +1,133 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Header Start */
+
+.header {
+  margin: 4rem 0 0 0;
+}
+
+/* Header => Nav Start */
+
+.header .nav .nav_navbar {
+  display: flex;
+}
+
+.header .nav .nav_navbar li {
+  margin: 0 0 0 3.2rem;
+}
+
+.header .nav .nav_navbar li a {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #07043b;
+  text-decoration: none;
+}
+/* Header => Nav End */
+
+/* Header => Hero Start */
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 18vh 0 0 0;
+}
+
+.features .features_content h1 {
+  margin: 0 0 1vh 0;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  /* or 150% */
+
+  color: #07043b;
+}
+
+.features .features_content p {
+  margin: 0 0 2vh 0;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  /* or 141% */
+
+  letter-spacing: 0.53125px;
+
+  color: #07043b;
+}
+
+.features .features_content_cta {
+  display: flex;
+  align-items: center;
+}
+
+.features .features_content input {
+  padding: 1rem 6rem 1rem 1rem;
+  margin: 0 1rem 0 0;
+
+  max-width: 320px;
+  max-height: 45px;
+  width: 100%;
+  height: 100%;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.466667px;
+
+  color: #c2c2c2;
+}
+
+.features .features_content button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 200px;
+  max-height: 45px;
+  width: 100%;
+  height: 100%;
+
+  background: #2f65f8;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+
+  padding: 1rem 3rem;
+}
+
+.features .features_image img {
+  margin: 0 0 0 5rem;
+}
+
+/* Header => Hero End */
+
+/* Header End */
